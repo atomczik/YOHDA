@@ -1,7 +1,4 @@
-### EXPLANATION: This is a sample code for an alpha diversity loop. 
-### It is currently set up to run three diversity functions.
-### But you will find other functions in the code that I have put there to figure out later.
-### DISCLAIMER: It is clearly a work in progress and has problems to fix
+#Edited
 
 # Things to Do:
 
