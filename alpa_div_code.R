@@ -3,6 +3,15 @@
 ### But you will find other functions in the code that I have put there to figure out later.
 ### DISCLAIMER: It is clearly a work in progress and has problems to fix
 
+# Things to Do:
+
+# Table 1- drop NA's
+# Transpose Table1. Must keep col/row names.
+# Group Comparison. T.test for each Diversity Measure.
+# Produce Table with form
+#   - Diversity, group1(mean/sd), group2(mean/sd), degrees of freedom, t.test stat, pvalue
+#   - loop might be helpful.
+
 
 # **************************************************************************** #
 # ***************             Start UP Commands                *************** #
@@ -16,7 +25,9 @@ today=format(now, format="%d%b%y")
 # ***************                   Directories                *************** #
 # **************************************************************************** #
 
-setwd("C:/Users/tomczika/Dropbox/Undergrad_Research/Angela/MIG_study/16S")
+#setwd("C:/Users/tomczika/Dropbox/Undergrad_Research/Angela/MIG_study/16S")
+setwd("C:/Users/lemasd/Dropbox/Undergrad_Research/Angela/MIG_study/16S")
+
 list.files()
 
 # **************************************************************************** #
@@ -95,12 +106,10 @@ for (i in 2:myIndex)
 
 } # End of Loop
 TABLE1
-  
+
 # **************************************************************************** #
 # ***************                 Test For Differences         *************** #
 # **************************************************************************** #
-
-
 
 
 
